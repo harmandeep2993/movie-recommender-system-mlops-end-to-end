@@ -26,7 +26,7 @@ EXPOSE 8000
 # --port 8000 defines the server port
 CMD ["uvicorn", "src.serving.app:app", "--host", "0.0.0.0", "--port", "8000"]
 
-# --------------------------
+# ---------------------------
 # HOW THE API CONNECTS:
 # When this container runs, Uvicorn launches the FastAPI app defined in src/serving/app.py.
 # The app listens on http://0.0.0.0:8000 inside the container.
