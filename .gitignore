@@ -230,4 +230,4 @@ extras
 mlruns/
 mlflow.db
 mlflow-artifacts/
-mlflow-logs/
+mlflow
