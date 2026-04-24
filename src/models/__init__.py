@@ -1,5 +1,7 @@
 # src/models/__init__.py
 
-from src.models.train import train_pipeline
+from .train import train_pipeline
+from .evaluate import evaluate_pipeline
+from .predict import predict_pipeline
 
-__all__ = ["train_pipeline"]
+__all__ = ["train_pipeline", "evaluate_pipeline", "predict_pipeline"]
