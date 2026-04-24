@@ -130,7 +130,7 @@ def train_pipeline(
         best trained model
     """
     mlflow.set_tracking_uri("sqlite:///mlflow.db")
-    mlflow.set_experiment("movie-recommendation-system")
+    mlflow.set_experiment("movie-recommendation-sys")
 
     best_model = None
     best_k = None

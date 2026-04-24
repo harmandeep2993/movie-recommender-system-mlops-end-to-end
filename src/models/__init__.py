@@ -2,5 +2,6 @@
 
 from .train import train_pipeline
 from .evaluate import evaluate_pipeline
+from .predict import predict_pipeline
 
-__all__ = ["train_pipeline", "evaluate_pipeline"]
+__all__ = ["train_pipeline", "evaluate_pipeline", "predict_pipeline"]
